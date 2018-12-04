@@ -1,0 +1,44 @@
+name: pangeo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - rasterio
+  - numpy
+  - scipy
+  - pandas
+  - xarray
+  - matplotlib
+  - dask
+  - distributed
+  - gcsfs
+  - intake::intake
+  - intake::intake-xarray
+  - s3fs
+  - scikit-image
+  - scikit-learn
+  - dask-ml
+  - bokeh
+  - pyviz/label/earthsim::holoviews
+  - pyviz/label/earthsim::panel
+  - geoviews
+  - hvplot
+  - rasterio
+  - geoviews
+  - datashader
+  - netcdf4
+  - zarr
+  - numcodecs
+  - python-blosc
+  - lz4
+  - nbserverproxy
+  - jupyter
+  - jupyterlab=0.35
+  - ipywidgets
+  - ipyleaflet
+  - graphviz
+  - dask-kubernetes
+  - pip:
+    - git+https://github.com/xgcm/xgcm.git
+    - git+https://github.com/pydata/xarray.git
+

@@ -1,0 +1,46 @@
+fuse_subgraphs: False
+fuse_ave_width: 0
+
+distributed:
+  logging:
+    bokeh: critical
+
+  admin:
+    tick:
+      limit: 5s
+
+kubernetes:
+  count:
+    max: 50
+  worker-template:
+    metadata:
+    spec:
+      nodeSelector:
+        dask-worker: True
+      restartPolicy: Never
+      containers:
+      - args:
+          - dask-worker
+          - --nthreads
+          - '2'
+          - --no-bokeh
+          - --memory-limit
+          - 7GB
+          - --death-timeout
+          - '60'
+        image: ${JUPYTER_IMAGE_SPEC}
+        name: dask-worker
+        resources:
+          limits:
+            cpu: "1.75"
+            memory: 7G
+          requests:
+            cpu: 1
+            memory: 7G
+
+labextension:
+  factory:
+    module: dask_kubernetes
+    class: KubeCluster
+    args: []
+    kwargs: {}
