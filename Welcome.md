@@ -25,8 +25,7 @@ To get started, double click on a notebook on the left, like `getting_started.ip
 Links are available within each notebook for additional documentation on that topic.
 
 - For more information about Pangeo in general please visit [pangeo.io](https://pangeo.io).
-- For more information about these examples please visit [TODO](https://TODO)
-
+- For more information about this tutorial please visit: https://github.com/pangeo-data/pangeo-tutorial-agu-2018
 ## Where is this running?
 
 This session is running on [binder.pangeo.io](http://binder.pangeo.io), a service designed by the Jupyter community, and operated by the Pangeo community. This Binder is running on Google Cloud Platform.
