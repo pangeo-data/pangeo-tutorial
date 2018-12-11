@@ -14,11 +14,4 @@ jupyter labextension install  # Install the current directory as an extension
 pip install -e .
 jupyter serverextension enable --sys-prefix dask_labextension
 
-cd /home/jovyan
-mkdir data
-cd data
-wget http://ldeo.columbia.edu/~rpa/sst.tar.gz
-tar -xvzf sst.tar.gz
-rm sst.tar.gz
-
 #EOF
