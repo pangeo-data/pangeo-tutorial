@@ -36,8 +36,8 @@ dependencies:
   - jupyterlab=0.35
   - ipywidgets
   - ipyleaflet
-  - graphviz
   - dask-kubernetes
   - pip:
+    - graphviz
     - git+https://github.com/xgcm/xgcm.git
     - git+https://github.com/pydata/xarray.git
