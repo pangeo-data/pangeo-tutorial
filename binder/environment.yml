@@ -41,3 +41,4 @@ dependencies:
     - graphviz
     - git+https://github.com/xgcm/xgcm.git
     - git+https://github.com/pydata/xarray.git
+    - git+https://github.com/zarr-developers/zarr.git
