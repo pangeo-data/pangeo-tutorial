@@ -16,6 +16,7 @@ cd data
 wget http://ldeo.columbia.edu/~rpa/sst.tar.gz
 tar -xvzf sst.tar.gz
 rm sst.tar.gz
+cd -
 
 
 exec "$@"
