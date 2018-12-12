@@ -7,6 +7,7 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager \
 
 git clone --single-branch -b serverextension https://github.com/ian-r-rose/dask-labextension.git
 cd dask-labextension
+git checkout 903ad1980194c26d8416e2f4d2cc5bca19b06b92
 npm install   # Install npm package dependencies
 npm run build  # Compile the TypeScript sources to Javascript
 jupyter labextension install  # Install the current directory as an extension
