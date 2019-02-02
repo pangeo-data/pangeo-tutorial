@@ -10,7 +10,7 @@ dependencies:
   - xarray
   - matplotlib
   - dask
-  - distributed
+  - distributed=1.25.3
   - gcsfs
   - intake::intake
   - intake::intake-xarray
