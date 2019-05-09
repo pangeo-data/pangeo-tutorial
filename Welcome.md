@@ -1,16 +1,19 @@
 
 <center>
-    <img src="images/small_e_logo.svg" width="75%" align="center">
-    <img src="images/pangeo_simple_logo.png" width="50%" align="center">
-    <br><br><br>
-    <img src="./images/xarray.png" height="125"> <img src="./images/dask.png" height="125"> <img src="./images/jupyter.png" height="125">
+    <div style="display:table-cell;text-align:center;vertical-align:middle;width:100%;"> 
+        <img src="images/small_e_logo.svg" style="height:200px;">
+        <br>
+        <img src="images/pangeo_simple_logo.png" style="width:300px;vertical-align:middle;">
+    </div>
+    <br><br>
+    <img src="./images/xarray.png" style="height:125px;"> <img src="./images/dask.png" style="height:125px;"> <img src="./images/jupyter.png" style="height:125px;">
 </center>
 
 # Pangeo AGU 2018 Tutorial
 
 Welcome to the Pangeo Tutorial at the 2018 AGU Fall Meeting.
-This is a live session from which you can run Jupyter notebooks showing how to Xarray, Dask, Jupyter.
-Pangeo is a community effort and big-data platform for the geosciences.
+This is a live session from which you can run Jupyter notebooks showing how to use Xarray, Dask and Jupyter.
+Pangeo is a community effort and big-data platform for the geo and other sciences.
 This collection of tutorials is intended to demonstrate some of the operations that can be performed using Pangeo.
 
 A file browser listing example notebooks is available to the left.  There are overview notebooks about how to use dask, and a variety of scientific use cases.
@@ -18,7 +21,7 @@ A file browser listing example notebooks is available to the left.  There are ov
 Dask dashboard plots are available to the right.  These will activate when you
 run the cells in your Jupyter notebooks that create a Dask `Client` (these are already written for you).
 
-To get started, double click on a notebook on the left, like `getting_started.ipynb`, and start running through the Jupyter notebook cells.
+To get started, go into the notebook folder on the left, double click on a notebook, like `dask.ipynb`, and start running through the Jupyter notebook cells.
 
 ## Learn More
 
@@ -26,9 +29,10 @@ Links are available within each notebook for additional documentation on that to
 
 - For more information about Pangeo in general please visit [pangeo.io](https://pangeo.io).
 - For more information about this tutorial please visit: https://github.com/pangeo-data/pangeo-tutorial-agu-2018
+
 ## Where is this running?
 
-This session is running on [binder.pangeo.io](http://binder.pangeo.io), a service designed by the Jupyter community, and operated by the Pangeo community. This Binder is running on Google Cloud Platform.
+This session is running on [binder.pangeo.io](http://binder.pangeo.io), a service designed by the Jupyter community, and operated by the Pangeo community with additional services like the ability to use [dask-kubernetes](https://kubernetes.dask.org/en/latest/). This Binder is running on Google Cloud Platform.
 
 ## Acknowledgments
 
