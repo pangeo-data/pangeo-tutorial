@@ -29,7 +29,7 @@ kubernetes:
           - --death-timeout
           - '60'
         image: ${JUPYTER_IMAGE_SPEC}
-        name: dask-worker
+        name: dask-{JUPYTERHUB_USER}-{uuid}
         resources:
           limits:
             cpu: "1.75"
