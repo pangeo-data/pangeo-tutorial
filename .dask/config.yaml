@@ -10,6 +10,7 @@ distributed:
       limit: 5s
 
 kubernetes:
+  name: "dask-{JUPYTERHUB_USER}-{uuid}"
   count:
     max: 40
   worker-template:
@@ -29,7 +30,6 @@ kubernetes:
           - --death-timeout
           - '60'
         image: ${JUPYTER_IMAGE_SPEC}
-        name: dask-{JUPYTERHUB_USER}-{uuid}
         resources:
           limits:
             cpu: "1.75"
