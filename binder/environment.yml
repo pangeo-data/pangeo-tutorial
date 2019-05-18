@@ -37,6 +37,8 @@ dependencies:
   - ipywidgets
   - ipyleaflet
   - dask-kubernetes
+  - wget
+  - pip
   - pip:
     - graphviz
     - git+https://github.com/xgcm/xgcm.git
