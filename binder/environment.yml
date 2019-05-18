@@ -37,8 +37,10 @@ dependencies:
   - ipywidgets
   - ipyleaflet
   - dask-kubernetes
+  - tornado=5.1.1
   - wget
   - pip
   - pip:
     - graphviz
+    - dask_labextension=0.3.3
     - git+https://github.com/xgcm/xgcm.git
