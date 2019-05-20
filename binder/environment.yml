@@ -19,7 +19,7 @@ dependencies:
   - scikit-learn
   - dask-ml
   - bokeh
-  - holoviews
+  - holoviews>=1.12.3
   - panel
   - geoviews
   - hvplot
@@ -38,7 +38,7 @@ dependencies:
   - ipyleaflet
   - dask-kubernetes
   - tornado=5.1.1
-  - wget
+  - python-wget
   - pip
   - pip:
     - graphviz
