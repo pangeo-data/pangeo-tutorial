@@ -5,6 +5,9 @@ distributed:
   logging:
     bokeh: critical
 
+  dashboard:
+    link: /user/{JUPYTERHUB_USER}/proxy/{port}/status
+
   admin:
     tick:
       limit: 5s
@@ -15,8 +18,6 @@ kubernetes:
   worker-template:
     metadata:
     spec:
-      nodeSelector:
-        dask-worker: True
       restartPolicy: Never
       containers:
       - args:
@@ -29,7 +30,7 @@ kubernetes:
           - --death-timeout
           - '60'
         image: ${JUPYTER_IMAGE_SPEC}
-        name: dask-worker
+        name: "dask-worker"
         resources:
           limits:
             cpu: "1.75"

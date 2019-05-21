@@ -9,10 +9,10 @@
     <img src="./images/xarray.png" style="height:125px;"> <img src="./images/dask.png" style="height:125px;"> <img src="./images/jupyter.png" style="height:125px;">
 </center>
 
-# Pangeo AGU 2018 Tutorial
+# Pangeo Tutorial
 
-Welcome to the Pangeo Tutorial at the 2018 AGU Fall Meeting.
-This is a live session from which you can run Jupyter notebooks showing how to use Xarray, Dask and Jupyter.
+Welcome to the Pangeo Tutorial.
+This is a live session from which you can run Jupyter notebooks that demonstrate how to use Xarray, Dask and Jupyter.
 Pangeo is a community effort and big-data platform for the geo and other sciences.
 This collection of tutorials is intended to demonstrate some of the operations that can be performed using Pangeo.
 
@@ -27,12 +27,12 @@ To get started, go into the notebook folder on the left, double click on a noteb
 
 Links are available within each notebook for additional documentation on that topic.
 
-- For more information about Pangeo in general please visit [pangeo.io](https://pangeo.io).
-- For more information about this tutorial please visit: https://github.com/pangeo-data/pangeo-tutorial-agu-2018
+- For more information about Pangeo in general, please visit [pangeo.io](https://pangeo.io).
+- For more information about this tutorial please visit: https://github.com/pangeo-data/pangeo-tutorial
 
 ## Where is this running?
 
-This session is running on [binder.pangeo.io](http://binder.pangeo.io), a service designed by the Jupyter community, and operated by the Pangeo community with additional services like the ability to use [dask-kubernetes](https://kubernetes.dask.org/en/latest/). This Binder is running on Google Cloud Platform.
+This session is running on [binder.pangeo.io](http://binder.pangeo.io), a service designed by the Jupyter community, and operated by the Pangeo community with additional services like the ability to use [dask-kubernetes](https://kubernetes.dask.org/en/latest/). This Binder is running on Google Cloud Platform in the `us-central1-b` region.
 
 ## Acknowledgments
 

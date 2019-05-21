@@ -12,15 +12,15 @@ dependencies:
   - dask
   - distributed
   - gcsfs
-  - intake::intake
-  - intake::intake-xarray
+  - intake
+  - intake-xarray
   - s3fs
   - scikit-image
   - scikit-learn
   - dask-ml
   - bokeh
-  - pyviz/label/earthsim::holoviews
-  - pyviz/label/earthsim::panel
+  - holoviews>=1.12.3
+  - panel
   - geoviews
   - hvplot
   - rasterio
@@ -33,12 +33,14 @@ dependencies:
   - lz4
   - nbserverproxy
   - jupyter
-  - jupyterlab=0.35
+  - jupyterlab
   - ipywidgets
   - ipyleaflet
   - dask-kubernetes
+  - tornado=5.1.1
+  - python-wget
+  - pip
   - pip:
     - graphviz
+    - dask_labextension==0.3.3
     - git+https://github.com/xgcm/xgcm.git
-    - git+https://github.com/pydata/xarray.git
-    - git+https://github.com/zarr-developers/zarr.git
