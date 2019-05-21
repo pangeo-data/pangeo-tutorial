@@ -34,10 +34,10 @@ kubernetes:
         resources:
           limits:
             cpu: "1.75"
-            memory: 7G
+            memory: 6G
           requests:
             cpu: 1
-            memory: 7G
+            memory: 6G
 
 labextension:
   factory:
