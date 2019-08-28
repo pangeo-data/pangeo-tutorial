@@ -42,5 +42,5 @@ dependencies:
   - pip
   - pip:
     - graphviz
-    - dask_labextension==0.3.3
     - git+https://github.com/xgcm/xgcm.git
+    - git+https://github.com/ian-r-rose/dask-labextension.git@de-asyncify#egg=dask_labextension 
