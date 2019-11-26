@@ -4,21 +4,15 @@ This repository tutorial materials for half-day workshops that showcase Pangeo J
 
 ### Basic content (launch on [mybinder.org](https://mybinder.org))
 
-[![badge](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pangeo-data/pangeo-tutorial/master?urlpath=git-pull?repo=https://github.com/pangeo-data/pangeo-tutorial%26amp%3Bbranch=master%26amp%3Burlpath=lab/tree/pangeo-tutorial/notebooks/%3Fautodecode)
+[![badge](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pangeo-data/pangeo-tutorial/agu2019?urlpath=git-pull?repo=https://github.com/pangeo-data/pangeo-tutorial%26amp%3Bbranch=agu2019%26amp%3Burlpath=lab/tree/pangeo-tutorial/notebooks/%3Fautodecode)
 
 ### GCP-specfic content
 
-[![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=Pangeo+Binder&message=GCE+us-central1&color=blue)](https://binder.pangeo.io/v2/gh/pangeo-data/pangeo-tutorial/master?urlpath=git-pull?repo=https://github.com/pangeo-data/pangeo-tutorial%26amp%3Bbranch=master%26amp%3Burlpath=lab/tree/pangeo-tutorial/notebooks/google-cloud/%3Fautodecode)
+[![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=Pangeo+Binder&message=GCE+us-central1&color=blue)](https://binder.pangeo.io/v2/gh/pangeo-data/pangeo-tutorial/agu2019?urlpath=git-pull?repo=https://github.com/pangeo-data/pangeo-tutorial%26amp%3Bbranch=agu2019%26amp%3Burlpath=lab/tree/pangeo-tutorial/notebooks/google-cloud/%3Fautodecode)
 
 ### AWS-specific content
 
-[![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=Pangeo+Binder&message=AWS+us-west-2&color=orange)](https://aws-uswest2-binder.pangeo.io/v2/gh/pangeo-tutorial/master?urlpath=git-pull?repo=https://github.com/pangeo-data/pangeo-tutorial%26amp%3Bbranch=master%26amp%3Burlpath=lab/tree/pangeo-tutorial/notebooks/amazon-web-services/%3Fautodecode)
-
-
-Workshops using this material:
-
-* 2018 AGU workshop: [Scalable Geoscience Tools in Python — Xarray, Dask, and Jupyter](https://agu.confex.com/agu/fm18/meetingapp.cgi/Session/52170).
-* 2019 AGU workshop: [Pangeo: Hands on with JupyterHub and Open-source Python Tools for Scalable Analysis of Big Data in the Geosciences](https://www.agu.org/Events/SCIWS12-Pangeo)
+[![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=Pangeo+Binder&message=AWS+us-west-2&color=orange)](https://aws-uswest2-binder.pangeo.io/v2/gh/pangeo-tutorial/agu2019?urlpath=git-pull?repo=https://github.com/pangeo-data/pangeo-tutorial%26amp%3Bbranch=agu2019%26amp%3Burlpath=lab/tree/pangeo-tutorial/notebooks/amazon-web-services/%3Fautodecode)
 
 
 ## Tutorial Highlights
