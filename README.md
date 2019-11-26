@@ -2,8 +2,8 @@
 
 This repository tutorial materials for half-day workshops that showcase Pangeo JupyterHub deployments. The `notebooks` directory has Jupyter notebooks that illustrate key python libraries including xarray and dask. Notebooks in subfolders `amazon-web-services` and `google-cloud` utilize configuration and datasets stored on those commercial Cloud providers and are meant to be run as binders:
 
-### Basic content
-(launch on [mybinder.org](https://mybinder.org))
+### Basic content (launch on [mybinder.org](https://mybinder.org))
+
 [![badge](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pangeo-data/pangeo-tutorial/master?urlpath=git-pull?repo=https://github.com/pangeo-data/pangeo-tutorial%26amp%3Bbranch=master%26amp%3Burlpath=lab/tree/pangeo-tutorial/notebooks/%3Fautodecode)
 
 ### GCP-specfic content
