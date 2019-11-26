@@ -1,17 +1,6 @@
-
-<center>
-    <div style="display:table-cell;text-align:center;vertical-align:middle;width:100%;"> 
-        <img src="images/small_e_logo.svg" style="height:200px;">
-        <br>
-        <img src="images/pangeo_simple_logo.png" style="width:300px;vertical-align:middle;">
-    </div>
-    <br><br>
-    <img src="./images/xarray.png" style="height:125px;"> <img src="./images/dask.png" style="height:125px;"> <img src="./images/jupyter.png" style="height:125px;">
-</center>
-
 # Pangeo Tutorial
 
-Welcome to the Pangeo Tutorial.
+Welcome to the Pangeo Tutorial!
 This is a live session from which you can run Jupyter notebooks that demonstrate how to use Xarray, Dask and Jupyter.
 Pangeo is a community effort and big-data platform for the geo and other sciences.
 This collection of tutorials is intended to demonstrate some of the operations that can be performed using Pangeo.
@@ -32,8 +21,8 @@ Links are available within each notebook for additional documentation on that to
 
 ## Where is this running?
 
-This session is running on [binder.pangeo.io](http://binder.pangeo.io), a service designed by the Jupyter community, and operated by the Pangeo community with additional services like the ability to use [dask-kubernetes](https://kubernetes.dask.org/en/latest/). This Binder is running on Google Cloud Platform in the `us-central1-b` region.
+This session is running on [https://aws-uswest2-binder.pangeo.io](https://aws-uswest2-binder.pangeo.io), a service designed by the Jupyter community, and operated by the Pangeo community with additional services like the ability to use [dask-kubernetes](https://kubernetes.dask.org/en/latest/). This Binder is running Amazon Web Services `us-west-2` region.
 
 ## Acknowledgments
 
-Pangeo is supported, in part, by the National Science Foundation (NSF) and the National Aeronautics and Space Administration (NASA). Google provided compute credits on Google Cloud Platform.
+Pangeo is supported, in part, by the National Science Foundation (NSF) and the National Aeronautics and Space Administration (NASA). Google and Amazon have generously provided Cloud credits in support of this project.
