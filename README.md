@@ -8,11 +8,11 @@ This repository tutorial materials for half-day workshops that showcase Pangeo J
 
 ### GCP-specfic content
 
-[![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=Pangeo+Binder&message=GCE+us-central1&color=blue)](https://binder.pangeo.io/v2/gh/pangeo-data/pangeo-tutorial/agu2019?urlpath=git-pull?repo=https://github.com/pangeo-data/pangeo-tutorial%26amp%3Bbranch=agu2019%26amp%3Burlpath=lab/tree/pangeo-tutorial/notebooks/google-cloud/%3Fautodecode)
+[![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=Pangeo+Binder&message=GCE+us-central1&color=blue)](https://binder.pangeo.io/v2/gh/pangeo-data/pangeo-tutorial/agu2019?urlpath=git-pull?repo=https://github.com/pangeo-data/pangeo-tutorial%26amp%3Bbranch=agu2019%26amp%3Burlpath=lab/tree/pangeo-tutorial/notebooks/%3Fautodecode)
 
 ### AWS-specific content
 
-[![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=Pangeo+Binder&message=AWS+us-west-2&color=orange)](https://aws-uswest2-binder.pangeo.io/v2/gh/pangeo-data/pangeo-tutorial/agu2019?urlpath=git-pull?repo=https://github.com/pangeo-data/pangeo-tutorial%26amp%3Bbranch=agu2019%26amp%3Burlpath=lab/tree/pangeo-tutorial/notebooks/amazon-web-services/%3Fautodecode)
+[![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=Pangeo+Binder&message=AWS+us-west-2&color=orange)](https://aws-uswest2-binder.pangeo.io/v2/gh/pangeo-data/pangeo-tutorial/agu2019?urlpath=git-pull?repo=https://github.com/pangeo-data/pangeo-tutorial%26amp%3Bbranch=agu2019%26amp%3Burlpath=lab/tree/pangeo-tutorial/notebooks/%3Fautodecode)
 
 
 ## Tutorial Highlights
