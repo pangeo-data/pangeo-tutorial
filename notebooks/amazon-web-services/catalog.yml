@@ -1,0 +1,20 @@
+plugins:
+  source:
+    - module: intake_xarray
+sources:
+  gistemp:
+    description: Observational time series data for comparison with ensemble average
+    driver: netcdf
+    args:
+      urlpath: 'https://data.giss.nasa.gov/pub/gistemp/gistemp1200_GHCNv4_ERSSTv5.nc.gz'
+      chunks: {}
+    cache:
+      - type: compressed
+        decomp: gz
+        argkey: urlpath
+  HadCRUT4:
+    description: Observational time series data for comparison with ensemble average
+    driver: netcdf
+    args:
+      urlpath: 'https://www.esrl.noaa.gov/psd/thredds/dodsC/Datasets/cru/hadcrut4/air.mon.anom.median.nc'
+      chunks: {}
