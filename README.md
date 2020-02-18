@@ -1,7 +1,7 @@
 # Pangeo Tutorial Materials
 **[*Click here for AGU 2019 Agenda*](abstracts/agu2019.md)**
 
-This repository tutorial materials for half-day workshops that showcase Pangeo JupyterHub deployments. The `notebooks` directory has Jupyter notebooks that illustrate key python libraries including geopandas, xarray, dask, and intake. You can run these notebooks interactively on BinderHub services like [MyBinder.org](https://mybinder.org). **Note that these are emphermal computing environments on Public infrastructure, so you may loose work, and don't store passwords**
+This repository tutorial materials for half-day workshops that showcase Pangeo JupyterHub deployments. The `notebooks` directory has Jupyter notebooks that illustrate key python libraries including geopandas, xarray, dask, and intake. You can run these notebooks interactively on BinderHub services like [MyBinder.org](https://mybinder.org). **Note that these are emphermal computing environments on Public infrastructure, so you may lose work, and don't store passwords**
 
 | Basic content  | 
 | ------------- | 
