@@ -1,7 +1,8 @@
 # Pangeo Tutorial Materials
-**[*Click here for AGU 2019 Agenda*](abstracts/agu2019.md)**
 
-This repository tutorial materials for half-day workshops that showcase Pangeo JupyterHub deployments. The `notebooks` directory has Jupyter notebooks that illustrate key python libraries including geopandas, xarray, dask, and intake. You can run these notebooks interactively on BinderHub services like [MyBinder.org](https://mybinder.org). **Note that these are emphermal computing environments on Public infrastructure, so you may lose work, and don't store passwords!**
+**[*Click here for EGU 2020 Agenda*](abstracts/egu2020.md)**
+
+This repository tutorial materials for half-day workshops that showcase Pangeo JupyterHub deployments. The `notebooks` directory has Jupyter notebooks that illustrate key python libraries including geopandas, xarray, dask, and intake. You can run these notebooks interactively on BinderHub services like [MyBinder.org](https://mybinder.org). **Note that these are ephemeral computing environments on Public infrastructure, so you may lose work, and don't store passwords!**
 
 | Basic content  | 
 | ------------- | 
@@ -31,6 +32,7 @@ Notebooks in subfolders `amazon-web-services` and `google-cloud` combine all the
 
 * 2018 AGU workshop: [Scalable Geoscience Tools in Python — Xarray, Dask, and Jupyter](https://agu.confex.com/agu/fm18/meetingapp.cgi/Session/52170).
 * 2019 AGU workshop: [Pangeo: Hands on with JupyterHub and Open-source Python Tools for Scalable Analysis of Big Data in the Geosciences](https://www.agu.org/Events/SCIWS12-Pangeo)
+* 2020 EGU workshop: [Working with big, multi-dimensional geoscientific datasets in Python: an interactive tutorial introduction to xarray and pangeo](https://meetingorganizer.copernicus.org/EGU2020/session/36380)
 
 ## Acknowledgements
 
