@@ -18,7 +18,7 @@ This repository tutorial materials for half- to full-day workshops that showcase
 
 ## Run this tutorial
 
- **Note that Binder is an emphermal computing environment, so use download, github or gist if you want to save work.  It also runs on publicly-accessible infrastructure so don't store passwords, keys or tokens!**
+***Note: Binder is an emphermal computing environment, so use download, github or gist if you want to save work.  It also runs on publicly-accessible infrastructure so don't store passwords, keys or tokens!
 
 | Basic content  | 
 | ------------- | 
