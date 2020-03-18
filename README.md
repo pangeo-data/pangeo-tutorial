@@ -1,26 +1,8 @@
 # Pangeo Tutorial
 
-<div><center>
-  <img src="./images/pangeo_card_white.png" height="150"> 
-  <img src="./images/dask.png" height="125">
-  <img src="./images/xarray.png" height="125"> 
-  <img src="./images/holoviz.png" height="125">
-  <img src="./images/jupyter.png" height="125"> 
-</center></div>
-
-
-
 This repository tutorial materials for half- to full-day workshops that showcase Pangeo JupyterHub deployments. The `notebooks` directory has Jupyter notebooks that illustrate key python libraries including geopandas, xarray, dask, holoviz and intake. You can run these notebooks interactively on BinderHub services like [MyBinder.org](https://mybinder.org). **Note that these are emphermal computing environments on Public infrastructure, so you may lose work, and don't store passwords!**
 
-| Basic content  | 
-| ------------- | 
-| [![badge](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pangeo-data/pangeo-tutorial/binder-agu2019?urlpath=git-pull?repo=https://github.com/pangeo-data/pangeo-tutorial%26amp%3Bbranch=usgs_workshop_mar2020%26amp%3Burlpath=lab/tree/pangeo-tutorial/notebooks/%3Fautodecode) |
 
-Notebooks in subfolders `amazon-web-services` and `google-cloud` combine all these Python libraries and use cluster configurations and datasets stored on Google Cloud (GCP) or Amazon Cloud (AWS). The following binder links launch a [predefined computational environment](https://hub.docker.com/r/pangeo/pangeo-notebook/tags) in different Cloud data centers, allowing us to upload our computation rather than download data:
-
-| AWS-specific content  | GCP-specific content |
-| ------------- | ------------- |
-| [![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=Pangeo+Binder&message=AWS+us-west-2&color=orange)](https://aws-uswest2-binder.pangeo.io/v2/gh/pangeo-data/pangeo-tutorial/binder-agu2019?urlpath=git-pull?repo=https://github.com/pangeo-data/pangeo-tutorial%26amp%3Bbranch=usgs_workshop_mar2020%26amp%3Burlpath=lab/tree/pangeo-tutorial/notebooks/%3Fautodecode) |[![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=Pangeo+Binder&message=GCE+us-central1&color=blue)](https://binder.pangeo.io/v2/gh/pangeo-data/pangeo-tutorial/binder-agu2019?urlpath=git-pull?repo=https://github.com/pangeo-data/pangeo-tutorial%26amp%3Bbranch=usgs_workshop_mar2020%26amp%3Burlpath=lab/tree/pangeo-tutorial/notebooks/%3Fautodecode) |
 
 ## Tutorial Components
 
@@ -42,6 +24,18 @@ Notebooks in subfolders `amazon-web-services` and `google-cloud` combine all the
 
 - **[About Geopandas](http://geopandas.org):** Geopandas is a library to facilitate analysis of geospatial vector data
 - **[About Intake](https://intake.readthedocs.io/en/latest/index.html):** Intake is a cataloging system designed to "Take the pain out of data access and distribution"
+
+## Run this tutorial
+
+| Basic content  | 
+| ------------- | 
+| [![badge](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pangeo-data/pangeo-tutorial/binder-agu2019?urlpath=git-pull?repo=https://github.com/pangeo-data/pangeo-tutorial%26amp%3Bbranch=usgs_workshop_mar2020%26amp%3Burlpath=lab/tree/pangeo-tutorial/notebooks/%3Fautodecode) |
+
+Notebooks in subfolders `amazon-web-services` and `google-cloud` combine all these Python libraries and use cluster configurations and datasets stored on Google Cloud (GCP) or Amazon Cloud (AWS). The following binder links launch a [predefined computational environment](https://hub.docker.com/r/pangeo/pangeo-notebook/tags) in different Cloud data centers, allowing us to upload our computation rather than download data:
+
+| AWS-specific content  | GCP-specific content |
+| ------------- | ------------- |
+| [![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=Pangeo+Binder&message=AWS+us-west-2&color=orange)](https://aws-uswest2-binder.pangeo.io/v2/gh/pangeo-data/pangeo-tutorial/binder-agu2019?urlpath=git-pull?repo=https://github.com/pangeo-data/pangeo-tutorial%26amp%3Bbranch=usgs_workshop_mar2020%26amp%3Burlpath=lab/tree/pangeo-tutorial/notebooks/%3Fautodecode) |[![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=Pangeo+Binder&message=GCE+us-central1&color=blue)](https://binder.pangeo.io/v2/gh/pangeo-data/pangeo-tutorial/binder-agu2019?urlpath=git-pull?repo=https://github.com/pangeo-data/pangeo-tutorial%26amp%3Bbranch=usgs_workshop_mar2020%26amp%3Burlpath=lab/tree/pangeo-tutorial/notebooks/%3Fautodecode) |
 
 ## Workshops
 
