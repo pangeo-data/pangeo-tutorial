@@ -1,6 +1,6 @@
 # Pangeo Tutorial
 
-This repository tutorial materials for half- to full-day workshops that showcase Pangeo JupyterHub deployments. The `notebooks` directory has Jupyter notebooks that illustrate key python libraries including dask, xarray, holoviz, geopandas and intake. You can run these notebooks interactively on BinderHub services like [MyBinder.org](https://mybinder.org).
+This repository tutorial materials for half- to full-day workshops that showcase Pangeo JupyterHub deployments. The `notebooks` directory has Jupyter notebooks that illustrate key python libraries including dask, xarray, holoviz, geopandas and intake. 
 
 ## Tutorial Libraries
 
