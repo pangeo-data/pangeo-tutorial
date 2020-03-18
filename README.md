@@ -1,31 +1,37 @@
-# Pangeo Tutorial Materials
-**[*Click here for AGU 2019 Agenda*](abstracts/agu2019.md)**
+# Pangeo Highlights
 
-This repository tutorial materials for half-day workshops that showcase Pangeo JupyterHub deployments. The `notebooks` directory has Jupyter notebooks that illustrate key python libraries including geopandas, xarray, dask, and intake. You can run these notebooks interactively on BinderHub services like [MyBinder.org](https://mybinder.org). **Note that these are emphermal computing environments on Public infrastructure, so you may lose work, and don't store passwords!**
+This repository tutorial materials for half-day to full day workshops that showcase Pangeo JupyterHub deployments. The `notebooks` directory has Jupyter notebooks that illustrate key python libraries including geopandas, xarray, dask, holoviz and intake. You can run these notebooks interactively on BinderHub services like [MyBinder.org](https://mybinder.org). **Note that these are emphermal computing environments on Public infrastructure, so you may lose work, and don't store passwords!**
 
 | Basic content  | 
 | ------------- | 
-| [![badge](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pangeo-data/pangeo-tutorial/binder-agu2019?urlpath=git-pull?repo=https://github.com/pangeo-data/pangeo-tutorial%26amp%3Bbranch=agu2019%26amp%3Burlpath=lab/tree/pangeo-tutorial/notebooks/%3Fautodecode) |
+| [![badge](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pangeo-data/pangeo-tutorial/binder-agu2019?urlpath=git-pull?repo=https://github.com/pangeo-data/pangeo-tutorial%26amp%3Bbranch=usgs_workshop_mar2020%26amp%3Burlpath=lab/tree/pangeo-tutorial/notebooks/%3Fautodecode) |
 
 Notebooks in subfolders `amazon-web-services` and `google-cloud` combine all these Python libraries and use cluster configurations and datasets stored on Google Cloud (GCP) or Amazon Cloud (AWS). The following binder links launch a [predefined computational environment](https://hub.docker.com/r/pangeo/pangeo-notebook/tags) in different Cloud data centers, allowing us to upload our computation rather than download data:
 
 | AWS-specific content  | GCP-specific content |
 | ------------- | ------------- |
-| [![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=Pangeo+Binder&message=AWS+us-west-2&color=orange)](https://aws-uswest2-binder.pangeo.io/v2/gh/pangeo-data/pangeo-tutorial/binder-agu2019?urlpath=git-pull?repo=https://github.com/pangeo-data/pangeo-tutorial%26amp%3Bbranch=agu2019%26amp%3Burlpath=lab/tree/pangeo-tutorial/notebooks/%3Fautodecode) |[![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=Pangeo+Binder&message=GCE+us-central1&color=blue)](https://binder.pangeo.io/v2/gh/pangeo-data/pangeo-tutorial/binder-agu2019?urlpath=git-pull?repo=https://github.com/pangeo-data/pangeo-tutorial%26amp%3Bbranch=agu2019%26amp%3Burlpath=lab/tree/pangeo-tutorial/notebooks/%3Fautodecode) |
+| [![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=Pangeo+Binder&message=AWS+us-west-2&color=orange)](https://aws-uswest2-binder.pangeo.io/v2/gh/pangeo-data/pangeo-tutorial/binder-agu2019?urlpath=git-pull?repo=https://github.com/pangeo-data/pangeo-tutorial%26amp%3Bbranch=usgs_workshop_mar2020%26amp%3Burlpath=lab/tree/pangeo-tutorial/notebooks/%3Fautodecode) |[![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=Pangeo+Binder&message=GCE+us-central1&color=blue)](https://binder.pangeo.io/v2/gh/pangeo-data/pangeo-tutorial/binder-agu2019?urlpath=git-pull?repo=https://github.com/pangeo-data/pangeo-tutorial%26amp%3Bbranch=usgs_workshop_mar2020%26amp%3Burlpath=lab/tree/pangeo-tutorial/notebooks/%3Fautodecode) |
 
-## Tutorial Highlights
+## Tutorial Packages
 
-<div><center><img src="./images/pangeo_card_white.png" height="150"> <img src="./images/xarray.png" height="125"> <img src="./images/dask.png" height="125"> <img src="./images/jupyter.png" height="125"></center></div>
+<div><center>
+  <img src="./images/pangeo_card_white.png" height="150"> 
+  <img src="./images/dask.png" height="125">
+  <img src="./images/xarray.png" height="125"> 
+  <img src="./images/holoviz.png" height="125">
+  <img src="./images/jupyter.png" height="125"> 
+</center></div>
 
 -----
 
 - **[About Pangeo](https://pangeo.io/):** Pangeo is a community effort for big data in the geosciences using Python. A key component of the Pangeo effort is the improved integration of Xarray and Dask to enable analysis of very large datasets.
-- **[About Jupyter](http://jupyter.org/):** Project Jupyter exists to develop open-source software, open-standards, and services for interactive computing across dozens of programming languages. The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more.
-- **[About Xarray](http://xarray.pydata.org/en/latest/index.html):** Xarray is an open source project and Python package that aims to bring the labeled data power of pandas to the physical sciences, by providing N-dimensional variants of the core pandas data structures.
 - **[About Dask](http://dask.pydata.org/en/latest/index.html):** Dask is a flexible parallel computing library for analytic computing.
+- **[About Xarray](http://xarray.pydata.org/en/latest/index.html):** Xarray is an open source project and Python package that aims to bring the labeled data power of pandas to the physical sciences, by providing N-dimensional variants of the core pandas data structures.
+- **[About HoloViz](https://holoviz.org/):** HoloViz provides a coordinated set of high-level tools for visualizing data:  Panel for making apps and dashboards, hvPlot to easily generate interactive plots, HoloViews to make data visualizable, GeoViews to extend HoloViews for geographic data, Datashader for rendering large datasets, Param to create declarative user-configurable objects, and Colorcet for perceptually uniform colormaps.
+- **[About Jupyter](http://jupyter.org/):** Project Jupyter exists to develop open-source software, open-standards, and services for interactive computing across dozens of programming languages. The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more.
+
 - **[About Geopandas](http://geopandas.org):** Geopandas is a library to facilitate analysis of geospatial vector data
 - **[About Intake](https://intake.readthedocs.io/en/latest/index.html):** Intake is a cataloging system designed to "Take the pain out of data access and distribution"
-
 
 ## Workshops
 
