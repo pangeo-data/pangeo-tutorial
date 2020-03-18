@@ -6,16 +6,6 @@ This repository tutorial materials for half- to full-day workshops that showcase
   <img src="./images/pangeo_env_fig.png" >
 </center></div>
 
-## Tutorial Libraries
-
-<div><center>
-  <img src="./images/pangeo_card_white.png" height="150"> 
-  <img src="./images/dask.png" height="125">
-  <img src="./images/xarray.png" height="125"> 
-  <img src="./images/holoviz.png" height="125">
-  <img src="./images/jupyter.png" height="125"> 
-</center></div>
-
 -----
 
 - **[About Pangeo](https://pangeo.io/):** Pangeo is a community effort for big data in the geosciences using Python. A key component of the Pangeo effort is the improved integration of Xarray, Dask and Holoviz to enable analysis and visualization of very large datasets.
