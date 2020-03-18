@@ -1,9 +1,10 @@
 # Pangeo Tutorial
+
+This repository tutorial materials for half- to full-day workshops that showcase Pangeo JupyterHub deployments. The `notebooks` directory has Jupyter notebooks that illustrate key python libraries including dask, xarray, holoviz, geopandas and intake. 
+
 <div><center>
   <img src="./images/pangeo_env_fig.png" >
 </center></div>
-
-This repository tutorial materials for half- to full-day workshops that showcase Pangeo JupyterHub deployments. The `notebooks` directory has Jupyter notebooks that illustrate key python libraries including dask, xarray, holoviz, geopandas and intake. 
 
 ## Tutorial Libraries
 
