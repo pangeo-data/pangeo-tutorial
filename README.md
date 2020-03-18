@@ -9,14 +9,14 @@ This repository tutorial materials for half- to full-day workshops that showcase
 -----
 
 - **[About Pangeo](https://pangeo.io/):** Pangeo is a community effort for big data in the geosciences using Python. A key component of the Pangeo effort is the improved integration of Xarray, Dask and Holoviz to enable analysis and visualization of very large datasets.
-- **[About Dask](http://dask.pydata.org/en/latest/index.html):** Dask is a flexible parallel computing library for analytic computing.
-- **[About Xarray](http://xarray.pydata.org/en/latest/index.html):** Xarray is an open source project and Python package that aims to bring the labeled data power of pandas to the physical sciences, by providing N-dimensional variants of the core pandas data structures.
-- **[About Geopandas](http://geopandas.org):** Geopandas is a library to facilitate analysis of geospatial vector data
-- **[About HoloViz](https://holoviz.org/):** HoloViz provides a coordinated set of high-level tools for visualizing data:  Panel for making apps and dashboards, hvPlot to easily generate interactive plots, HoloViews to make data visualizable, GeoViews to extend HoloViews for geographic data, Datashader for rendering large datasets, Param to create declarative user-configurable objects, and Colorcet for perceptually uniform colormaps.
-- **[About Intake](https://intake.readthedocs.io/en/latest/index.html):** Intake is a cataloging system designed to "Take the pain out of data access and distribution"
-- **[About Jupyter](http://jupyter.org/):** Project Jupyter exists to develop open-source software, open-standards, and services for interactive computing across dozens of programming languages. The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more.
+- **[About Dask](https://dask.pydata.org/en/latest/index.html):** Dask is a flexible parallel computing library for analytic computing. [Dask Tutorial](https://tutorial.dask.org):**
+- **[About Xarray](https://xarray.pydata.org/en/latest/index.html):** Xarray is an open source project and Python package that aims to bring the labeled data power of pandas to the physical sciences, by providing N-dimensional variants of the core pandas data structures. [Xarray Tutorial](http://xarray.pydata.org/en/stable/weather-climate.html)
+- **[About Geopandas](https://geopandas.org):** Geopandas is a library to facilitate analysis of geospatial vector data
+- **[About HoloViz](https://holoviz.org/):** HoloViz provides a coordinated set of high-level tools for visualizing data:  Panel for making apps and dashboards, hvPlot to easily generate interactive plots, HoloViews to make data visualizable, GeoViews to extend HoloViews for geographic data, Datashader for rendering large datasets, Param to create declarative user-configurable objects, and Colorcet for perceptually uniform colormaps. [HoloViz Tutorial](https://holoviz.org/tutorial/index.html)
+- **[About Intake](https://intake.readthedocs.io/en/latest/index.html):** Intake is a cataloging system designed to "Take the pain out of data access and distribution". [Intake Tutorial](https://github.com/intake/intake-examples/)
+- **[About Jupyter](https://jupyter.org/):** Project Jupyter exists to develop open-source software, open-standards, and services for interactive computing across dozens of programming languages. The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more. [Jupyter Tutorial](https://github.com/scottythered/absolute-basics-of-jupyter)
 
-## Run this tutorial
+## Run this Pangeo Tutorial
 
 ***Note: Binder is an emphermal computing environment, so use download, github or gist if you want to save work.  It also runs on publicly-accessible infrastructure so don't store passwords, keys or tokens!
 
