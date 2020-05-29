@@ -5,7 +5,7 @@ This repository tutorial materials for half-day workshops that showcase Pangeo J
 
 | Basic content  | 
 | ------------- | 
-| [[![Binder](https://aws-uswest2-binder.pangeo.io/badge_logo.svg)](https://aws-uswest2-binder.pangeo.io/v2/gh/salvis2/pangeo-tutorial/gateway-image?urlpath=git-pull?repo=https://github.com/salvis2/pangeo-tutorial%26amp%3Bbranch=gateway%26amp%3Burlpath=lab/tree/pangeo-tutorial/notebooks/%3Fautodecode) |
+| [![Binder](https://aws-uswest2-binder.pangeo.io/badge_logo.svg)](https://aws-uswest2-binder.pangeo.io/v2/gh/salvis2/pangeo-tutorial/gateway-image?urlpath=git-pull?repo=https://github.com/salvis2/pangeo-tutorial%26amp%3Bbranch=gateway%26amp%3Burlpath=lab/tree/pangeo-tutorial/notebooks/%3Fautodecode) |
 
 Notebooks in subfolders `amazon-web-services` and `google-cloud` combine all these Python libraries and use cluster configurations and datasets stored on Google Cloud (GCP) or Amazon Cloud (AWS). The following binder links launch a [predefined computational environment](https://hub.docker.com/r/pangeo/pangeo-notebook/tags) in different Cloud data centers, allowing us to upload our computation rather than download data:
 
