@@ -5,13 +5,13 @@ This repository tutorial materials for half-day workshops that showcase Pangeo J
 
 | Basic content  | 
 | ------------- | 
-| [![badge][![Binder](https://staging.binder.pangeo.io/badge_logo.svg)](https://staging.aws-uswest2-binder.pangeo.io/v2/gh/salvis2/pangeo-tutorial/gateway) |
+| [[![Binder](https://aws-uswest2-binder.pangeo.io/badge_logo.svg)](https://aws-uswest2-binder.pangeo.io/v2/gh/salvis2/pangeo-tutorial/gateway-image?urlpath=git-pull?repo=https://github.com/salvis2/pangeo-tutorial%26amp%3Bbranch=gateway%26amp%3Burlpath=lab/tree/pangeo-tutorial/notebooks/%3Fautodecode) |
 
 Notebooks in subfolders `amazon-web-services` and `google-cloud` combine all these Python libraries and use cluster configurations and datasets stored on Google Cloud (GCP) or Amazon Cloud (AWS). The following binder links launch a [predefined computational environment](https://hub.docker.com/r/pangeo/pangeo-notebook/tags) in different Cloud data centers, allowing us to upload our computation rather than download data:
 
 | AWS-specific content  | GCP-specific content |
 | ------------- | ------------- |
-| [![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=Pangeo+Binder&message=AWS+us-west-2&color=orange)](https://staging.aws-uswest2-binder.pangeo.io/v2/gh/salvis2/pangeo-tutorial/gateway-image?urlpath=git-pull?repo=https://github.com/salvis2/pangeo-tutorial%26amp%3Bbranch=gateway%26amp%3Burlpath=lab/tree/pangeo-tutorial/notebooks/%3Fautodecode) |[![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=Pangeo+Binder&message=GCE+us-central1&color=blue)](https://binder.pangeo.io/v2/gh/pangeo-data/pangeo-tutorial/binder-agu2019?urlpath=git-pull?repo=https://github.com/pangeo-data/pangeo-tutorial%26amp%3Bbranch=agu2019%26amp%3Burlpath=lab/tree/pangeo-tutorial/notebooks/%3Fautodecode) |
+| [![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=Pangeo+Binder&message=AWS+us-west-2&color=orange)](https://aws-uswest2-binder.pangeo.io/v2/gh/salvis2/pangeo-tutorial/gateway-image?urlpath=git-pull?repo=https://github.com/salvis2/pangeo-tutorial%26amp%3Bbranch=gateway%26amp%3Burlpath=lab/tree/pangeo-tutorial/notebooks/%3Fautodecode) |[![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=Pangeo+Binder&message=GCE+us-central1&color=blue)](https://binder.pangeo.io/v2/gh/pangeo-data/pangeo-tutorial/binder-agu2019?urlpath=git-pull?repo=https://github.com/pangeo-data/pangeo-tutorial%26amp%3Bbranch=agu2019%26amp%3Burlpath=lab/tree/pangeo-tutorial/notebooks/%3Fautodecode) |
 
 ## Tutorial Highlights
 
